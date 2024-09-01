@@ -1,0 +1,34 @@
+.wrapper {
+    width: 23em;
+    max-width: 100%;
+    height: 3em;
+    position: relative;
+}
+
+.wrapper input {
+    background-color: seashell;
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: 191414;
+    text-align: left;
+    padding-left: 1em;
+    font-size: large;
+    border: 2px solid #191414;
+    border-radius: 2em;
+}
+
+.wrapper .btn {
+    background-color: #1db954;
+    height: 100%;
+    width: 5.5em;
+    border: 1px solid #191414;
+    border-radius: 1.2em;
+    color: #191414;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: 500;
+    right: 0;
+    position: absolute;
+}

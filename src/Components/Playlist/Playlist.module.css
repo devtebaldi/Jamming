@@ -1,0 +1,74 @@
+.box {
+    width: 30em;
+    min-height: 28.5em;
+    max-height: 28.5em;
+    border: 1px seashell solid;
+    padding: 1em;
+    color: seashell;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.box input {
+    border: none;
+    width: 100%;
+    font-size: 2em;
+    font: 700;
+    color: seashell;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.box input::placeholder {
+    color: seashell;
+    text-align: left;
+    visibility: visible;
+}
+
+.playlist {
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    border-bottom: 0.1em seashell solid;
+    padding: 1em 0em;
+}
+
+.playlist .trackInfo {
+    margin-right: auto;
+}
+
+.playlist .removeButton {
+    margin-right: 1em;
+    font-size: 1.2em;
+    color: seashell;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.noTracks {
+    margin-top: 2em;
+}
+
+.saveButton {
+    background-color: #1db954;
+    width: 9em;
+    height: 2em;
+    border: 1px solid #191414;
+    border-radius: 1.2em;
+    color: #191414;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}

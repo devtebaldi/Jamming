@@ -1,0 +1,41 @@
+.box {
+    width: 30em;
+    min-height: 28.5em;
+    max-height: 28.5em;
+    border: 1px seashell solid;
+    padding: 1em;
+    color: seashell;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.box h2 {
+    color: seashell;
+    font-size: 2em;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    border-bottom: 0.1em seashell solid;
+    padding: 1em 0em;
+}
+
+.results .trackInfo {
+    margin-right: auto;
+}
+
+.results .addButton {
+    margin-right: 1em;
+    font-size: 1.2em;
+    color: seashell;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.noTracks {
+    margin-top: 2em;
+}

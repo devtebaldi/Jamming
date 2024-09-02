@@ -3,7 +3,6 @@ import styles from './App.module.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
-import tracklist from '../Tracklist/Tracklist';
 import Spotify from '../Spotify';
 
 function App() {
